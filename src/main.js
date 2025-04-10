@@ -25,3 +25,5 @@ renderer.setAnimationLoop(()=>{
   renderer.render(scene,camera)
 })
 const scene1 = new THREE.scene();
+
+//hello world
