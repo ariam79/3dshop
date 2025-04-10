@@ -24,3 +24,4 @@ renderer.setAnimationLoop(()=>{
   dodec.rotateY(0.03)
   renderer.render(scene,camera)
 })
+hello
