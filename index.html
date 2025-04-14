@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .cube{
+            transform-style: preserve-3d;
+            transition: 0.4s;
+        }
+        .side{
+            background-color: red;
+            position: absolute;
+            box-shadow: inset 0px 0px 40px black;
+            transition: 0.4s;
+        }
+        .ext{
+            transform-origin: 200px 200px -50px;
+            position: absolute;
+            top: calc(50% - 400px);
+            left: 50%;
+            transform-style: preserve-3d;
+        }
+    </style>
+</head>
+<body>
+    <div class="ext">
+
+    </div>
+</body>
+<script src="./a.js"></script>
+</html>
